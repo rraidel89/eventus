@@ -1,1 +1,4 @@
 Django==1.7
+psycopg2==2.5.4
+Pillow==2.6.1
+Unipath==1.0
