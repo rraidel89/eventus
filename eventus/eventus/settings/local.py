@@ -6,7 +6,7 @@ DATABASES = {
         'NAME': 'eventusdb',
         'USER': 'eventususer',
         'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'HOST': 'auxiliar',
         'PORT': '5432',
     }
 }
