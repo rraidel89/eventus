@@ -63,7 +63,7 @@ class Assistant(TimeStampModel):
         return "%s %s" % (self.assistant.username, self.event.name)
 
 
-class Comment(TimeStampModel):
+class Comments(TimeStampModel):
 
     user = models.ForeignKey(settings.AUTH_USER_MODEL)
     event = models.ForeignKey(Event)

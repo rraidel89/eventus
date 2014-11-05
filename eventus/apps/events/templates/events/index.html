@@ -65,14 +65,12 @@
                 {% for event in events %}
                 <div class="col-sm-1 col-md-3">
                     <div class="thumbnail">
-                        <!--
-                        <img src="{{ event.imagen.url }}" alt="250x180">
-                        -->
+                        <img src="{{ event.imagen.url }}" alt="250x180"/>
                         <div class="caption">
                             <h4><a href="">{{ event.name }}</a></h4>
                             <small class="fecha">{{ event.start }}</small>
                             <div class="lugar">
-                                <small class="lugar">{{ event.place }}</small> /
+                                <small class="lugar">{{ event.place }}</small>
                             </div>
                             <span class="inscritos">{{ event.views }}</span>
                         </div>
